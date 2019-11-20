@@ -8,10 +8,11 @@ class ClassWithConstructor {
 	getName(): string {	
 		return this.name;
 	}
-    getId(): number {
-        return this.id
-    }
+    	getId(): number {
+        	return this.id
+    	}
 }
+
 let newdata = new ClassWithConstructor( 10, 'Josh');
 console.log( newdata.getName() );
 console.log( newdata.getId() );  
